@@ -1,0 +1,29 @@
+package SmartMarkers;
+
+import AsposeCellsExamples.SmartMarkers.Wife;
+
+import java.util.ArrayList;
+
+public class Husband {
+	private String m_Name;
+	private int m_Age;
+	private ArrayList<AsposeCellsExamples.SmartMarkers.Wife> m_Wives;
+
+	public Husband(String name, int age, ArrayList<AsposeCellsExamples.SmartMarkers.Wife> wives) {
+		this.m_Name = name;
+		this.m_Age = age;
+		this.m_Wives = wives;
+	}
+
+	public String getName() {
+		return m_Name;
+	}
+
+	public int getAge() {
+		return m_Age;
+	}
+
+	public ArrayList<Wife> getWives() {
+		return m_Wives;
+	}
+}
